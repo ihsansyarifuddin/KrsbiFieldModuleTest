@@ -55,6 +55,7 @@ namespace KrsbiFieldModuleTest
                 var x = int.Parse(xTextbox.Text);
                 var y = int.Parse(yTextbox.Text);
                 var h = double.Parse(hTextbox.Text);
+                //Config location should be C:\\Users\{username}\field.json
                 var fieldConfig = fieldLoader.GetFieldConfig();
                 KeyValuePair<string, object> isEnable;
                 switch (robot)
