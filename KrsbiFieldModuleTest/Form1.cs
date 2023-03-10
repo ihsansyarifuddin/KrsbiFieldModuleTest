@@ -28,7 +28,7 @@ namespace KrsbiFieldModuleTest
 
         private void button1_Click(object sender, EventArgs e)
         {
-            fieldLoader.LoadConfig();
+            fieldLoader1.LoadConfig();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -56,7 +56,7 @@ namespace KrsbiFieldModuleTest
                 var y = int.Parse(yTextbox.Text);
                 var h = double.Parse(hTextbox.Text);
                 //Config location should be C:\\Users\{username}\field.json
-                var fieldConfig = fieldLoader.GetFieldConfig();
+                var fieldConfig = fieldLoader1.GetField().GetFieldConfig();
                 KeyValuePair<string, object> isEnable;
                 switch (robot)
                 {

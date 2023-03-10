@@ -28,23 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.fieldConfigurator1 = new KrsbiFieldModule.FieldConfigurator();
+            this.fieldConfigurator2 = new KrsbiFieldModule.FieldConfigurator();
             this.SuspendLayout();
             // 
-            // fieldConfigurator1
+            // fieldConfigurator2
             // 
-            this.fieldConfigurator1.Location = new System.Drawing.Point(13, 13);
-            this.fieldConfigurator1.Name = "fieldConfigurator1";
-            this.fieldConfigurator1.Size = new System.Drawing.Size(740, 449);
-            this.fieldConfigurator1.TabIndex = 0;
-            this.fieldConfigurator1.Load += new System.EventHandler(this.fieldConfigurator1_Load);
+            this.fieldConfigurator2.Location = new System.Drawing.Point(12, 12);
+            this.fieldConfigurator2.Name = "fieldConfigurator2";
+            this.fieldConfigurator2.Size = new System.Drawing.Size(740, 492);
+            this.fieldConfigurator2.TabIndex = 0;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(755, 472);
-            this.Controls.Add(this.fieldConfigurator1);
+            this.ClientSize = new System.Drawing.Size(766, 512);
+            this.Controls.Add(this.fieldConfigurator2);
             this.Name = "Form2";
             this.Text = "Form2";
             this.ResumeLayout(false);
@@ -54,5 +53,6 @@
         #endregion
 
         private KrsbiFieldModule.FieldConfigurator fieldConfigurator1;
+        private KrsbiFieldModule.FieldConfigurator fieldConfigurator2;
     }
 }
